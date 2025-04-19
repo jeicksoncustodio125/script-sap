@@ -1,7 +1,7 @@
 import os
 import requests
 import time
- 
+
 def enviar_contingencia_lote() -> dict:
     """Realiza a execução da tarefa de envio da nota fiscal para o sistema SAP.
 
@@ -15,7 +15,7 @@ def enviar_contingencia_lote() -> dict:
     # ---------------------------------------------
     # Credenciais para envio
     # ---------------------------------------------
-    sap_user = "integragn" 
+    sap_user = "integragn"
     sap_pass = "gentil#2022"
 
     # ---------------------------------------------
@@ -25,7 +25,7 @@ def enviar_contingencia_lote() -> dict:
 
 
     # ---------------------------------------------
-    # Definir pasta das notas 
+    # Definir pasta das notas
     # ---------------------------------------------
     pasta_notas = 'notas_contingencia_ceara'
 
